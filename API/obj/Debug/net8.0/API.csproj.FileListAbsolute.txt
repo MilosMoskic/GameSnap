@@ -155,3 +155,4 @@ C:\Users\Molee\Desktop\GameSnap\api\bin\Debug\net8.0\GameSnapAPI.Infastructure.p
 C:\Users\Molee\Desktop\GameSnap\api\bin\Debug\net8.0\GameSnapAPI.Domain.pdb
 C:\Users\Molee\Desktop\GameSnap\api\obj\Debug\net8.0\API.csproj.AssemblyReference.cache
 C:\Users\Molee\Desktop\GameSnap\api\obj\Debug\net8.0\API.csproj.Up2Date
+C:\Users\Molee\Desktop\GameSnap\api\obj\Debug\net8.0\API.sourcelink.json
