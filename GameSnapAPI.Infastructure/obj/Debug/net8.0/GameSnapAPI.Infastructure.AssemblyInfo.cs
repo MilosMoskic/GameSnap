@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GameSnapAPI.Infastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+44f00b7f692c61a05c789d41ad875fa5382c05db")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6c2042c9f7bdfa72c1f7ad83c672ab5b5158d3a5")]
 [assembly: System.Reflection.AssemblyProductAttribute("GameSnapAPI.Infastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GameSnapAPI.Infastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

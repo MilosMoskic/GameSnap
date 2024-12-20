@@ -156,3 +156,13 @@ C:\Users\Molee\Desktop\GameSnap\api\bin\Debug\net8.0\GameSnapAPI.Domain.pdb
 C:\Users\Molee\Desktop\GameSnap\api\obj\Debug\net8.0\API.csproj.AssemblyReference.cache
 C:\Users\Molee\Desktop\GameSnap\api\obj\Debug\net8.0\API.csproj.Up2Date
 C:\Users\Molee\Desktop\GameSnap\api\obj\Debug\net8.0\API.sourcelink.json
+C:\Users\Molee\Desktop\GameSnap\api\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Molee\Desktop\GameSnap\api\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Molee\Desktop\GameSnap\api\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Molee\Desktop\GameSnap\api\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Molee\Desktop\GameSnap\api\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Molee\Desktop\GameSnap\api\bin\Debug\net8.0\GameSnapAPI.Application.dll
+C:\Users\Molee\Desktop\GameSnap\api\bin\Debug\net8.0\GameSnapAPI.Application.pdb
+C:\Users\Molee\Desktop\GameSnap\api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Molee\Desktop\GameSnap\api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Molee\Desktop\GameSnap\api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
