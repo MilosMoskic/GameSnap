@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Molee\\Desktop\\GameSnap\\api\\API.csproj": {}
+    "C:\\Users\\Molee\\Desktop\\GameSnap\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Molee\\Desktop\\GameSnap\\api\\API.csproj": {
+    "C:\\Users\\Molee\\Desktop\\GameSnap\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Molee\\Desktop\\GameSnap\\api\\API.csproj",
+        "projectUniqueName": "C:\\Users\\Molee\\Desktop\\GameSnap\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\Molee\\Desktop\\GameSnap\\api\\API.csproj",
+        "projectPath": "C:\\Users\\Molee\\Desktop\\GameSnap\\API\\API.csproj",
         "packagesPath": "C:\\Users\\Molee\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Molee\\Desktop\\GameSnap\\api\\obj\\",
+        "outputPath": "C:\\Users\\Molee\\Desktop\\GameSnap\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Molee\\AppData\\Roaming\\NuGet\\NuGet.Config",

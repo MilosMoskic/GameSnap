@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BcVQLPGI9tw=",
+  "dgSpecHash": "pQnEF6LtCK8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Molee\\Desktop\\GameSnap\\api\\API.csproj",
+  "projectFilePath": "C:\\Users\\Molee\\Desktop\\GameSnap\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Molee\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Molee\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.11\\microsoft.aspnetcore.authentication.jwtbearer.8.0.11.nupkg.sha512",
