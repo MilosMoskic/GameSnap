@@ -28,6 +28,10 @@ export class NavComponent {
     })
   }
 
+  logout() {
+    this.loggedIn = false;
+  }
+
   toggleMenu(): void {
     this.isMenuOpen = !this.isMenuOpen;
     this.toggleIcon = this.isMenuOpen

@@ -21,6 +21,16 @@
         </form>
         }
 
+        @if(loggedIn){
+            <div class="profile">
+                <a class="wlecome_text">Welcome user</a>
+                <div class="profile_dropdown">
+                    <a class="profile_dropdown_item">Edit Profile</a>
+                    <a class="profile_dropdown_item" (click)="logout()">Logout</a>
+                </div>
+            </div>
+        }
+
         @if (loggedIn) {
         <div class="toggle_btn" (click)="toggleMenu()">
             <i [class]="toggleIcon"></i>
