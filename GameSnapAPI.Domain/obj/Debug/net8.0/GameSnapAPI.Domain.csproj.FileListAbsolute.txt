@@ -7,9 +7,9 @@ C:\Users\Molee\Desktop\GameSnap\GameSnapAPI.Domain\obj\Debug\net8.0\GameSnapAPI.
 C:\Users\Molee\Desktop\GameSnap\GameSnapAPI.Domain\obj\Debug\net8.0\GameSnapAPI.Domain.AssemblyInfoInputs.cache
 C:\Users\Molee\Desktop\GameSnap\GameSnapAPI.Domain\obj\Debug\net8.0\GameSnapAPI.Domain.AssemblyInfo.cs
 C:\Users\Molee\Desktop\GameSnap\GameSnapAPI.Domain\obj\Debug\net8.0\GameSnapAPI.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Molee\Desktop\GameSnap\GameSnapAPI.Domain\obj\Debug\net8.0\GameSnapAPI.Domain.sourcelink.json
 C:\Users\Molee\Desktop\GameSnap\GameSnapAPI.Domain\obj\Debug\net8.0\GameSnapAPI.Domain.dll
 C:\Users\Molee\Desktop\GameSnap\GameSnapAPI.Domain\obj\Debug\net8.0\refint\GameSnapAPI.Domain.dll
 C:\Users\Molee\Desktop\GameSnap\GameSnapAPI.Domain\obj\Debug\net8.0\GameSnapAPI.Domain.pdb
 C:\Users\Molee\Desktop\GameSnap\GameSnapAPI.Domain\obj\Debug\net8.0\GameSnapAPI.Domain.genruntimeconfig.cache
 C:\Users\Molee\Desktop\GameSnap\GameSnapAPI.Domain\obj\Debug\net8.0\ref\GameSnapAPI.Domain.dll
-C:\Users\Molee\Desktop\GameSnap\GameSnapAPI.Domain\obj\Debug\net8.0\GameSnapAPI.Domain.sourcelink.json
