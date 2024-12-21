@@ -1,23 +1,43 @@
 <header>
     <div class="navbar">
         <div class="logo"><a>GaneSnap</a></div>
+
+        @if (loggedIn) {
         <ul class="links">
             <li><a>Smh</a></li>
             <li><a>Smh</a></li>
             <li><a>Smh</a></li>
             <li><a>Smh</a></li>
         </ul>
-        <a class="action_btn">Smh</a>
+        }
+
+        @if (!loggedIn) {
+        <form #loginForm="ngForm" (ngSubmit)="login()" class="login_inputs" autocomplete="off">
+            <input name="username" [(ngModel)]="model.username" type="text" placeholder="Username"
+                class="login_input" />
+            <input name="password" [(ngModel)]="model.password" type="password" placeholder="Password"
+                class="login_input" />
+            <button class="action_btn" type="submit">Login</button>
+        </form>
+        }
+
+        @if (loggedIn) {
         <div class="toggle_btn" (click)="toggleMenu()">
             <i [class]="toggleIcon"></i>
         </div>
+        }
+
     </div>
 
-    <div class="dropdown_menu" [class.open]="isMenuOpen">
-        <li><a>Smh</a></li>
-        <li><a>Smh</a></li>
-        <li><a>Smh</a></li>
-        <li><a>Smh</a></li>
-        <li><a>Smh</a></li>
-    </div>
+    @if (loggedIn)
+    {
+        <div class="dropdown_menu" [class.open]="isMenuOpen">
+            <li><a>Smh</a></li>
+            <li><a>Smh</a></li>
+            <li><a>Smh</a></li>
+            <li><a>Smh</a></li>
+            <li><a>Smh</a></li>
+        </div>
+    }
+
 </header>
