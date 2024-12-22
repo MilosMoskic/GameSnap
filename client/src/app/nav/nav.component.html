@@ -2,7 +2,7 @@
     <div class="navbar">
         <div class="logo"><a>GaneSnap</a></div>
 
-        @if (loggedIn) {
+        @if (accountService.currentUser()) {
         <ul class="links">
             <li><a>Smh</a></li>
             <li><a>Smh</a></li>
@@ -11,7 +11,7 @@
         </ul>
         }
 
-        @if (!loggedIn) {
+        @if (!accountService.currentUser()) {
         <form #loginForm="ngForm" (ngSubmit)="login()" class="login_inputs" autocomplete="off">
             <input name="username" [(ngModel)]="model.username" type="text" placeholder="Username"
                 class="login_input" />
@@ -21,17 +21,17 @@
         </form>
         }
 
-        @if(loggedIn){
-            <div class="profile">
-                <a class="wlecome_text">Welcome user</a>
-                <div class="profile_dropdown">
-                    <a class="profile_dropdown_item">Edit Profile</a>
-                    <a class="profile_dropdown_item" (click)="logout()">Logout</a>
-                </div>
+        @if(accountService.currentUser()){
+        <div class="profile">
+            <a class="wlecome_text">Welcome user</a>
+            <div class="profile_dropdown">
+                <a class="profile_dropdown_item">Edit Profile</a>
+                <a class="profile_dropdown_item" (click)="logout()">Logout</a>
             </div>
+        </div>
         }
 
-        @if (loggedIn) {
+        @if (accountService.currentUser()) {
         <div class="toggle_btn" (click)="toggleMenu()">
             <i [class]="toggleIcon"></i>
         </div>
@@ -39,15 +39,14 @@
 
     </div>
 
-    @if (loggedIn)
+    @if (accountService.currentUser())
     {
-        <div class="dropdown_menu" [class.open]="isMenuOpen">
-            <li><a>Smh</a></li>
-            <li><a>Smh</a></li>
-            <li><a>Smh</a></li>
-            <li><a>Smh</a></li>
-            <li><a>Smh</a></li>
-        </div>
+    <div class="dropdown_menu" [class.open]="isMenuOpen">
+        <li><a>Smh</a></li>
+        <li><a>Smh</a></li>
+        <li><a>Smh</a></li>
+        <li><a>Smh</a></li>
+        <li><a>Smh</a></li>
+    </div>
     }
-
 </header>

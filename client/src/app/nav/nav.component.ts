@@ -11,25 +11,23 @@ import { NgIf } from '@angular/common';
   styleUrl: './nav.component.css',
 })
 export class NavComponent {
-  private accountService = inject(AccountService);
-  loggedIn = false;
-  model: any = {}
+  accountService = inject(AccountService);
+  model: any = {};
 
   isMenuOpen = false;
   toggleIcon = 'fa-solid fa-bars';
 
   login() {
     this.accountService.login(this.model).subscribe({
-      next: response => {
-        console.log(response)
-        this.loggedIn = true;
+      next: (response) => {
+        console.log(response);
       },
-      error: error => console.log(error)
-    })
+      error: (error) => console.log(error),
+    });
   }
 
   logout() {
-    this.loggedIn = false;
+    this.accountService.logout();
   }
 
   toggleMenu(): void {
