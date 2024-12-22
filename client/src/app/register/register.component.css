@@ -1,0 +1,150 @@
+/* Form container styling */
+.register-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1e2a47;
+    padding: 2rem;
+    max-width: 400px;
+    width: 81%;
+    color: #f4f4f9;
+    font-size: 1rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Title styling */
+  .form-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #ffffff;
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Divider */
+  .form-divider {
+    width: 100%;
+    border: none;
+    height: 2px;
+    background: linear-gradient(90deg, #0088a9, #005f7e);
+    margin: 2rem 0;
+    border-radius: 1px;
+  }
+  
+  /* Input group styling */
+  .form-group {
+    position: relative;
+    margin-bottom: 1.5rem;
+    width: 100%;
+  }
+  
+  /* Input fields */
+  .form-input {
+    width: 100%;
+    font-size: 1rem;
+    color: #f4f4f9;
+    background-color: #2d3e63;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .form-input:hover {
+    background-color: #354b81;
+  }
+  
+  .form-input:focus {
+    border-color: #00a3cc;
+    box-shadow: 0 4px 12px rgba(0, 163, 204, 0.3);
+  }
+  
+  /* Floating label for input */
+  .form-label {
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    transform: translateY(-50%);
+    font-size: 1rem;
+    color: #b0b9d1;
+    pointer-events: none;
+    transition: all 0.3s ease;
+  }
+  
+  .form-input:focus + .form-label,
+  .form-input:not(:placeholder-shown) + .form-label {
+    top: -10px;
+    left: 0.8rem;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #00a3cc;
+    background-color: #1e2a47;
+    padding: 0 6px;
+    border-radius: 4px;
+  }
+  
+  /* Action buttons */
+  .form-actions {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .form-button {
+    padding: 0.9rem 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    color: #ffffff;
+  }
+  
+  .form-button:hover {
+    box-shadow: 0 5px 15px rgba(0, 136, 169, 0.5);
+  }
+  
+  .form-button:active {
+    transform: scale(0.95);
+    box-shadow: none;
+  }
+  
+  .form-button {
+    background: linear-gradient(90deg, #005f7e, #0088a9);
+  }
+  
+  .form-button.cancel-button {
+    background: linear-gradient(90deg, #cc3333, #ff5555);
+  }
+  
+  .form-button.cancel-button:hover {
+    box-shadow: 0 5px 15px rgba(255, 85, 85, 0.5);
+  }
+  
+  .form-button.cancel-button:active {
+    background: linear-gradient(90deg, #a62828, #cc3333);
+  }
+  
+  /* Mobile responsiveness */
+  @media (max-width: 500px) {
+    .register-form {
+      padding: 1.5rem;
+    }
+  
+    .form-title {
+      font-size: 1.6rem;
+    }
+  
+    .form-input {
+      padding: 0.8rem;
+    }
+  
+    .form-button {
+      padding: 0.7rem 1.5rem;
+      font-size: 0.9rem;
+    }
+  }
+  
