@@ -1,0 +1,22 @@
+<div class="homepage">
+    <div class="content">
+
+        @if(!registerMode){
+        <h1 class="title">Share your gaming experiences!</h1>
+        <p class="subtitle">All you need to do is sign up!</p>
+        <div class="button-container">
+            <button (click)="registerToggle()" class="register-button">Register</button>
+        </div>
+        } @else {
+        <div>
+            <div class="register-form-container">
+                <div class="register-form-content">
+                    <p>Register form goes here</p>
+                </div>
+            </div>
+        </div>
+        }
+    </div>
+
+
+</div>
