@@ -2,14 +2,14 @@
     <div class="navbar">
         <div class="logo" routerLink="/"><a>GaneSnap</a></div>
 
-        @if (accountService.currentUser()) {
         <ul class="links">
+            @if (accountService.currentUser()) {
             <li><a routerLink="/members">Members</a></li>
             <li><a routerLink="/messages">Messages</a></li>
             <li><a>Smh</a></li>
             <li><a>Smh</a></li>
+            }
         </ul>
-        }
 
         @if (!accountService.currentUser()) {
         <form #loginForm="ngForm" (ngSubmit)="login()" class="login_inputs" autocomplete="off">
