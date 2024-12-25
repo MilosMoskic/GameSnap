@@ -1,11 +1,11 @@
 <header>
     <div class="navbar">
-        <div class="logo"><a>GaneSnap</a></div>
+        <div class="logo" routerLink="/"><a>GaneSnap</a></div>
 
         @if (accountService.currentUser()) {
         <ul class="links">
-            <li><a>Smh</a></li>
-            <li><a>Smh</a></li>
+            <li><a routerLink="/members">Members</a></li>
+            <li><a routerLink="/messages">Messages</a></li>
             <li><a>Smh</a></li>
             <li><a>Smh</a></li>
         </ul>
