@@ -1,0 +1,80 @@
+div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  padding: 2rem;
+  margin-top: 2rem;
+  background: #f4f4f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #4464ad;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #2e3a63;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+button:focus {
+  outline: 3px solid #0088a9;
+  outline-offset: 2px;
+}
+
+div > div {
+  width: 100%;
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background-color: #fff4f4;
+  border: 1px solid #ffcccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+div > div ul {
+  list-style-type: disc;
+  padding-left: 2rem;
+  margin: 0;
+}
+
+div > div ul li {
+  font-size: 0.9rem;
+  color: #d32f2f;
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 600px) {
+  div {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  button {
+    width: 100%;
+    text-align: center;
+  }
+
+  div > div {
+    text-align: center;
+    padding: 1rem;
+  }
+
+  div > div ul {
+    padding-left: 1rem;
+  }
+}
