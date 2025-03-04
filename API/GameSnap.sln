@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{78E793A0-5B8C-4C91-92A4-D12B49FDC844}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameSnapAPI.API", "GameSnapAPI.API\API.csproj", "{78E793A0-5B8C-4C91-92A4-D12B49FDC844}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameSnapAPI.Application", "GameSnapAPI.Application\GameSnapAPI.Application.csproj", "{53249264-E3FE-4FA4-B2D5-1E1194AAA1EC}"
 EndProject
