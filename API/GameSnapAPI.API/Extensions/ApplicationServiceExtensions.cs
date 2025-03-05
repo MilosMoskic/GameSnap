@@ -1,6 +1,8 @@
 using GameSnapAPI.Application.Interfaces;
 using GameSnapAPI.Application.Services;
+using GameSnapAPI.Domain.Interfaces;
 using GameSnapAPI.Infastructure.Context;
+using GameSnapAPI.Infastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 namespace API.Extensions;
@@ -17,6 +19,9 @@ public static class ApplicationServiceExtensions
         });
         services.AddCors();
         services.AddScoped<ITokenService, TokenService>();
+        services.AddScoped<IUserRepository, UserRepository>();
+        services.AddScoped<IUserService, UserService>();
+        services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
         return services;
     }

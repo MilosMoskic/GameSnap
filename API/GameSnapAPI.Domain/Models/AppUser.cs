@@ -11,4 +11,5 @@ public class AppUser
     public DateTime Created { get; set; } = DateTime.UtcNow;
     public DateTime LastActive { get; set; } = DateTime.UtcNow;
     public string? Games { get; set; }
+    public string? ProfilePictureUrl { get; set; }
 }

@@ -1,32 +1,26 @@
-using GameSnapAPI.Domain.Models;
-using GameSnapAPI.Infastructure.Context;
+using GameSnapAPI.Application.Interfaces;
+using GameSnapAPI.Domain.Dtos;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace API.Controllers;
 
-public class UsersController(DataContext context) : BaseApiController
+[Authorize]
+public class UsersController(IUserService userService) : BaseApiController
 {
-    private readonly DataContext _context = context;
-
-    [AllowAnonymous]
     [HttpGet]
-    public async Task<ActionResult<IEnumerable<AppUser>>> GetUsers()
+    public async Task<ActionResult<IEnumerable<MemberDto>>> GetUsers()
     {
-        var users = await _context.Users.ToListAsync();
+        var users = await userService.GetAllUsers();
 
-        return users;
+        return Ok(users);
     }
 
-    [Authorize]
-    [HttpGet("{id:int}")]
-    public async Task<ActionResult<AppUser>> GetUser(int id)
+    [HttpGet("{username}")]
+    public async Task<ActionResult<MemberDto>> GetUser(string username)
     {
-        var user = await _context.Users.FindAsync(id);
+        var user = await userService.GetUserByUsername(username);
 
-        if (user == null) return NotFound();
-
-        return user;
+        return Ok(user);
     }
 }
