@@ -22,4 +22,12 @@ public class PostController(IPostService postService) : BaseApiController
 
         return Ok(post);
     }
+
+    [HttpGet]
+    public async Task<ActionResult<IEnumerable<PostDto>>> GetAllPosts()
+    {
+        var posts = await postService.GetAllPosts();
+
+        return Ok(posts);
+    }
 }

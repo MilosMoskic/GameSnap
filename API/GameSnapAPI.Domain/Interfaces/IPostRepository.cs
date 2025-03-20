@@ -5,4 +5,5 @@ namespace GameSnapAPI.Domain.Interfaces;
 public interface IPostRepository
 {
     Task<Post> CreatePost(Post post);
+    Task<IEnumerable<Post>> GetAllPosts();
 }

@@ -1,4 +1,5 @@
 using AutoMapper;
+using GameSnapAPI.Application.Exceptions;
 using GameSnapAPI.Application.Interfaces;
 using GameSnapAPI.Domain.Dtos;
 using GameSnapAPI.Domain.Interfaces;
@@ -40,5 +41,19 @@ public class PostService(IPostRepository postRepository, IMapper mapper) : IPost
         var mappedPost = mapper.Map<PostDto>(post);
 
         return mappedPost;
+    }
+
+    public async Task<IEnumerable<PostDto>> GetAllPosts()
+    {
+        var postsInDb = await postRepository.GetAllPosts();
+
+        if (postsInDb == null)
+        {
+            throw new NotFoundException("There are no posts in database.");
+        }
+
+        var mappedPosts = mapper.Map<IEnumerable<PostDto>>(postsInDb);
+
+        return mappedPosts;
     }
 }

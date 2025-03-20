@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HUWRfmW3VSY=",
+  "dgSpecHash": "vblBwLwvrW8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Molee\\Desktop\\GameSnap\\API\\GameSnapAPI.Application\\GameSnapAPI.Application.csproj",
+  "projectFilePath": "C:\\Users\\Molee\\Desktop\\GameSnap\\api\\GameSnapAPI.Application\\GameSnapAPI.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Molee\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\Molee\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

@@ -3277,8 +3277,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Molee\\Desktop\\GameSnap\\API\\GameSnapAPI.Domain\\GameSnapAPI.Domain.csproj": {
-              "projectPath": "C:\\Users\\Molee\\Desktop\\GameSnap\\API\\GameSnapAPI.Domain\\GameSnapAPI.Domain.csproj"
+            "C:\\Users\\Molee\\Desktop\\GameSnap\\api\\GameSnapAPI.Domain\\GameSnapAPI.Domain.csproj": {
+              "projectPath": "C:\\Users\\Molee\\Desktop\\GameSnap\\api\\GameSnapAPI.Domain\\GameSnapAPI.Domain.csproj"
             }
           }
         }
