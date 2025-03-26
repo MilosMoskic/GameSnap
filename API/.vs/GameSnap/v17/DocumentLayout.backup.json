@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Molee\\Desktop\\GameSnap\\API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1EFF9A86-C039-4026-B4C2-16FB2E6F44FB}|GameSnapAPI.Domain\\GameSnapAPI.Domain.csproj|c:\\users\\molee\\desktop\\gamesnap\\api\\gamesnapapi.domain\\dtos\\postdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EFF9A86-C039-4026-B4C2-16FB2E6F44FB}|GameSnapAPI.Domain\\GameSnapAPI.Domain.csproj|solutionrelative:gamesnapapi.domain\\dtos\\postdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EFF9A86-C039-4026-B4C2-16FB2E6F44FB}|GameSnapAPI.Domain\\GameSnapAPI.Domain.csproj|c:\\users\\molee\\desktop\\gamesnap\\api\\gamesnapapi.domain\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EFF9A86-C039-4026-B4C2-16FB2E6F44FB}|GameSnapAPI.Domain\\GameSnapAPI.Domain.csproj|solutionrelative:gamesnapapi.domain\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{53249264-E3FE-4FA4-B2D5-1E1194AAA1EC}|GameSnapAPI.Application\\GameSnapAPI.Application.csproj|c:\\users\\molee\\desktop\\gamesnap\\api\\gamesnapapi.application\\services\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53249264-E3FE-4FA4-B2D5-1E1194AAA1EC}|GameSnapAPI.Application\\GameSnapAPI.Application.csproj|solutionrelative:gamesnapapi.application\\services\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{53249264-E3FE-4FA4-B2D5-1E1194AAA1EC}|GameSnapAPI.Application\\GameSnapAPI.Application.csproj|c:\\users\\molee\\desktop\\gamesnap\\api\\gamesnapapi.application\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53249264-E3FE-4FA4-B2D5-1E1194AAA1EC}|GameSnapAPI.Application\\GameSnapAPI.Application.csproj|solutionrelative:gamesnapapi.application\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1EFF9A86-C039-4026-B4C2-16FB2E6F44FB}|GameSnapAPI.Domain\\GameSnapAPI.Domain.csproj|c:\\users\\molee\\desktop\\gamesnap\\api\\gamesnapapi.domain\\profiles\\gamesnapprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFF9A86-C039-4026-B4C2-16FB2E6F44FB}|GameSnapAPI.Domain\\GameSnapAPI.Domain.csproj|solutionrelative:gamesnapapi.domain\\profiles\\gamesnapprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{78E793A0-5B8C-4C91-92A4-D12B49FDC844}|GameSnapAPI.API\\API.csproj|c:\\users\\molee\\desktop\\gamesnap\\api\\gamesnapapi.api\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{78E793A0-5B8C-4C91-92A4-D12B49FDC844}|GameSnapAPI.API\\API.csproj|solutionrelative:gamesnapapi.api\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EFF9A86-C039-4026-B4C2-16FB2E6F44FB}|GameSnapAPI.Domain\\GameSnapAPI.Domain.csproj|c:\\users\\molee\\desktop\\gamesnap\\api\\gamesnapapi.domain\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EFF9A86-C039-4026-B4C2-16FB2E6F44FB}|GameSnapAPI.Domain\\GameSnapAPI.Domain.csproj|solutionrelative:gamesnapapi.domain\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{53249264-E3FE-4FA4-B2D5-1E1194AAA1EC}|GameSnapAPI.Application\\GameSnapAPI.Application.csproj|c:\\users\\molee\\desktop\\gamesnap\\api\\gamesnapapi.application\\services\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53249264-E3FE-4FA4-B2D5-1E1194AAA1EC}|GameSnapAPI.Application\\GameSnapAPI.Application.csproj|solutionrelative:gamesnapapi.application\\services\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4357CDF2-6D6A-493D-B25F-4773036F9F07}|GameSnapAPI.Infastructure\\GameSnapAPI.Infastructure.csproj|c:\\users\\molee\\desktop\\gamesnap\\api\\gamesnapapi.infastructure\\repositories\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4357CDF2-6D6A-493D-B25F-4773036F9F07}|GameSnapAPI.Infastructure\\GameSnapAPI.Infastructure.csproj|solutionrelative:gamesnapapi.infastructure\\repositories\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFF9A86-C039-4026-B4C2-16FB2E6F44FB}|GameSnapAPI.Domain\\GameSnapAPI.Domain.csproj|c:\\users\\molee\\desktop\\gamesnap\\api\\gamesnapapi.domain\\helper\\postcontentresolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFF9A86-C039-4026-B4C2-16FB2E6F44FB}|GameSnapAPI.Domain\\GameSnapAPI.Domain.csproj|solutionrelative:gamesnapapi.domain\\helper\\postcontentresolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,21 +30,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PostDto.cs",
-              "DocumentMoniker": "C:\\Users\\Molee\\Desktop\\GameSnap\\API\\GameSnapAPI.Domain\\Dtos\\PostDto.cs",
-              "RelativeDocumentMoniker": "GameSnapAPI.Domain\\Dtos\\PostDto.cs",
-              "ToolTip": "C:\\Users\\Molee\\Desktop\\GameSnap\\API\\GameSnapAPI.Domain\\Dtos\\PostDto.cs",
-              "RelativeToolTip": "GameSnapAPI.Domain\\Dtos\\PostDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T13:31:50.394Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -63,67 +46,67 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PostRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Molee\\Desktop\\GameSnap\\API\\GameSnapAPI.Infastructure\\Repositories\\PostRepository.cs",
+              "RelativeDocumentMoniker": "GameSnapAPI.Infastructure\\Repositories\\PostRepository.cs",
+              "ToolTip": "C:\\Users\\Molee\\Desktop\\GameSnap\\API\\GameSnapAPI.Infastructure\\Repositories\\PostRepository.cs",
+              "RelativeToolTip": "GameSnapAPI.Infastructure\\Repositories\\PostRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAhwBcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T13:05:53.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "PostService.cs",
               "DocumentMoniker": "C:\\Users\\Molee\\Desktop\\GameSnap\\API\\GameSnapAPI.Application\\Services\\PostService.cs",
               "RelativeDocumentMoniker": "GameSnapAPI.Application\\Services\\PostService.cs",
               "ToolTip": "C:\\Users\\Molee\\Desktop\\GameSnap\\API\\GameSnapAPI.Application\\Services\\PostService.cs",
               "RelativeToolTip": "GameSnapAPI.Application\\Services\\PostService.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwCIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAawEcAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T18:39:19.849Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Post.cs",
-              "DocumentMoniker": "C:\\Users\\Molee\\Desktop\\GameSnap\\API\\GameSnapAPI.Domain\\Models\\Post.cs",
-              "RelativeDocumentMoniker": "GameSnapAPI.Domain\\Models\\Post.cs",
-              "ToolTip": "C:\\Users\\Molee\\Desktop\\GameSnap\\API\\GameSnapAPI.Domain\\Models\\Post.cs",
-              "RelativeToolTip": "GameSnapAPI.Domain\\Models\\Post.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAA4wBAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T18:38:33.676Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AppUser.cs",
-              "DocumentMoniker": "C:\\Users\\Molee\\Desktop\\GameSnap\\API\\GameSnapAPI.Domain\\Models\\AppUser.cs",
-              "RelativeDocumentMoniker": "GameSnapAPI.Domain\\Models\\AppUser.cs",
-              "ToolTip": "C:\\Users\\Molee\\Desktop\\GameSnap\\API\\GameSnapAPI.Domain\\Models\\AppUser.cs",
-              "RelativeToolTip": "GameSnapAPI.Domain\\Models\\AppUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T18:38:27.111Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TokenService.cs",
-              "DocumentMoniker": "C:\\Users\\Molee\\Desktop\\GameSnap\\API\\GameSnapAPI.Application\\Services\\TokenService.cs",
-              "RelativeDocumentMoniker": "GameSnapAPI.Application\\Services\\TokenService.cs",
-              "ToolTip": "C:\\Users\\Molee\\Desktop\\GameSnap\\API\\GameSnapAPI.Application\\Services\\TokenService.cs",
-              "RelativeToolTip": "GameSnapAPI.Application\\Services\\TokenService.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAqwBIAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T18:32:28.643Z",
+              "WhenOpened": "2025-03-26T13:04:10.881Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "PostContentResolver.cs",
+              "DocumentMoniker": "C:\\Users\\Molee\\Desktop\\GameSnap\\API\\GameSnapAPI.Domain\\Helper\\PostContentResolver.cs",
+              "RelativeDocumentMoniker": "GameSnapAPI.Domain\\Helper\\PostContentResolver.cs",
+              "ToolTip": "C:\\Users\\Molee\\Desktop\\GameSnap\\API\\GameSnapAPI.Domain\\Helper\\PostContentResolver.cs",
+              "RelativeToolTip": "GameSnapAPI.Domain\\Helper\\PostContentResolver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T13:01:53.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameSnapProfiles.cs",
+              "DocumentMoniker": "C:\\Users\\Molee\\Desktop\\GameSnap\\API\\GameSnapAPI.Domain\\Profiles\\GameSnapProfiles.cs",
+              "RelativeDocumentMoniker": "GameSnapAPI.Domain\\Profiles\\GameSnapProfiles.cs",
+              "ToolTip": "C:\\Users\\Molee\\Desktop\\GameSnap\\API\\GameSnapAPI.Domain\\Profiles\\GameSnapProfiles.cs*",
+              "RelativeToolTip": "GameSnapAPI.Domain\\Profiles\\GameSnapProfiles.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T13:00:29.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "PostController.cs",
               "DocumentMoniker": "C:\\Users\\Molee\\Desktop\\GameSnap\\API\\GameSnapAPI.API\\Controllers\\PostController.cs",
               "RelativeDocumentMoniker": "GameSnapAPI.API\\Controllers\\PostController.cs",
               "ToolTip": "C:\\Users\\Molee\\Desktop\\GameSnap\\API\\GameSnapAPI.API\\Controllers\\PostController.cs",
               "RelativeToolTip": "GameSnapAPI.API\\Controllers\\PostController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAwBQAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAqwCYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T18:31:11.724Z",
+              "WhenOpened": "2025-03-26T13:00:21.908Z",
               "EditorCaption": ""
             }
           ]

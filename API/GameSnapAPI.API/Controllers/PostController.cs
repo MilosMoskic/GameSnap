@@ -30,4 +30,12 @@ public class PostController(IPostService postService) : BaseApiController
 
         return Ok(posts);
     }
+
+    [HttpGet("{id}")]
+    public async Task<ActionResult<IEnumerable<UserPostDto>>> GetUserPosts(int id)
+    {
+        var posts = await postService.GetUserPosts(id);
+
+        return Ok(posts);
+    }
 }

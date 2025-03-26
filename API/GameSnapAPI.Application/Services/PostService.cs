@@ -29,13 +29,13 @@ public class PostService(IPostRepository postRepository, IMapper mapper) : IPost
             AppUserId = appUserId
         };
 
-        if (string.IsNullOrEmpty (post.Title))
+        if (string.IsNullOrEmpty(post.Title))
         {
             throw new ArgumentNullException("Title cannot be null or empty.");
         }
 
         post.SetPostContent(content);
-        
+
         await postRepository.CreatePost(post);
 
         var mappedPost = mapper.Map<PostDto>(post);
@@ -53,6 +53,20 @@ public class PostService(IPostRepository postRepository, IMapper mapper) : IPost
         }
 
         var mappedPosts = mapper.Map<IEnumerable<PostDto>>(postsInDb);
+
+        return mappedPosts;
+    }
+
+    public async Task<IEnumerable<UserPostDto>> GetUserPosts(int id)
+    {
+        var userPostsInDb = await postRepository.GetUserPosts(id);
+
+        if (userPostsInDb == null)
+        {
+            throw new NotFoundException("There are no posts in database.");
+        }
+
+        var mappedPosts = mapper.Map<IEnumerable<UserPostDto>>(userPostsInDb);
 
         return mappedPosts;
     }

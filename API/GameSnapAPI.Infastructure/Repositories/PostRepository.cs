@@ -18,4 +18,9 @@ public class PostRepository(DataContext context) : IPostRepository
     {
         return await context.Posts.ToListAsync();
     }
+
+    public async Task<IEnumerable<Post>> GetUserPosts(int id)
+    {
+        return await context.Posts.Where(u => u.AppUserId == id).Include(p => p.AppUser).ToListAsync();
+    }
 }
