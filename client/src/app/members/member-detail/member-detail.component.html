@@ -1,1 +1,10 @@
-<p>member-detail works!</p>
+<div class="profile-container">
+    <img src="{{member?.profilePictureUrl || './assets/user.png'}}" alt="{{member?.knownAs}}" class="profile-pic">
+    <div class="user-info">
+        <h1>{{member?.username}}</h1>
+        <p>GAMES: {{member?.games}}</p>
+    </div>
+</div>
+<div class="posts-feed">
+    <h2>POSTS FEED</h2>
+</div>

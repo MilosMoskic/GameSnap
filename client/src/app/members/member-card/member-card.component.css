@@ -1,0 +1,24 @@
+.member_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.member_item:hover {
+    background-color: #2424e4;
+}
+
+.member_item img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.name {
+    font-size: 16px;
+    flex-grow: 1;
+}

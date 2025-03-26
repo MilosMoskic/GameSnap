@@ -3513,11 +3513,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Molee\\Desktop\\GameSnap\\api\\GameSnapAPI.Application\\GameSnapAPI.Application.csproj",
+      "projectUniqueName": "C:\\Users\\Molee\\Desktop\\GameSnap\\API\\GameSnapAPI.Application\\GameSnapAPI.Application.csproj",
       "projectName": "GameSnapAPI.Application",
-      "projectPath": "C:\\Users\\Molee\\Desktop\\GameSnap\\api\\GameSnapAPI.Application\\GameSnapAPI.Application.csproj",
+      "projectPath": "C:\\Users\\Molee\\Desktop\\GameSnap\\API\\GameSnapAPI.Application\\GameSnapAPI.Application.csproj",
       "packagesPath": "C:\\Users\\Molee\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Molee\\Desktop\\GameSnap\\api\\GameSnapAPI.Application\\obj\\",
+      "outputPath": "C:\\Users\\Molee\\Desktop\\GameSnap\\API\\GameSnapAPI.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Molee\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3535,8 +3535,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Molee\\Desktop\\GameSnap\\api\\GameSnapAPI.Domain\\GameSnapAPI.Domain.csproj": {
-              "projectPath": "C:\\Users\\Molee\\Desktop\\GameSnap\\api\\GameSnapAPI.Domain\\GameSnapAPI.Domain.csproj"
+            "C:\\Users\\Molee\\Desktop\\GameSnap\\API\\GameSnapAPI.Domain\\GameSnapAPI.Domain.csproj": {
+              "projectPath": "C:\\Users\\Molee\\Desktop\\GameSnap\\API\\GameSnapAPI.Domain\\GameSnapAPI.Domain.csproj"
             }
           }
         }
